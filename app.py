@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app) # Web-saytdan murojaat qilishga ruxsat beradi
 
 # API Kalitni bu yerga yozing
-genai.configure(api_key="SIZNING_YANGI_API_KALITINGIZ")
+genai.configure(api_key="AIzaSyDT1c3VPNBG--Su05uyZqo6oWOG58Xs-lI")
 
 @app.route('/chat', methods=['POST'])
 def chat():
